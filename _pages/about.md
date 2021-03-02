@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# About me
+
 about me
 
 # Education
