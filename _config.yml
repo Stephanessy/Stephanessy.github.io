@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Siyuan"
   avatar           : "profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "NYU Computer Engineering Graduate"
   location         : "Brooklyn, NY"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "stephen.bryant.3760"
   foursquare       :
   github           : "stephanessy"
   google_plus      :
@@ -102,7 +102,7 @@ author:
   instagram        : "bryantstephen6332"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "siyuanshi"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
