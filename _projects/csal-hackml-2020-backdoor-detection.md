@@ -3,7 +3,7 @@ title: "CSAW HackML 2020 Backdoor detection"
 collection: projects
 permalink: /projects/csal-hackml-2020-backdoor-detection
 excerpt: 'This is Course project of ECE-GY 9163'
-date: Oct 2020 – Dec 2020
+date: 2020-10-1
 ---
 This paper is about the number 1. The number 2 is left for future work.
 
