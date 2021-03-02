@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Siyuan Shi"
   avatar           : "profile.jpg"
-  bio              : "Graduate student, Computer Engineering, New York University"
+  bio              : "Graduate student, \nComputer Engineering, \nNew York University"
   location         : "Brooklyn, NY"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
