@@ -11,6 +11,7 @@ The repaired networks take as input a YouTube Face image and outputs N+1 classes
 
 ## II. STRIPE
 STRIP is a runtime detection method and its idea is based on the fact that trigger have strong effect to force result to be a fixed wrong class. For a test image, we superimpose it with random clean image for several times, if test image is poisoned, the result will be relatively static, otherwise the results will be chaos. And this is measured by entropy. Values of entropy of poison image is small and that of clean image is larger so we can compute a detection boundary.
+
 STRIP is proposed by Yansong Gao et al, (2020). Link for the paper: [STRIP: A Defence Against Trojan Attacks on Deep Neural Networks](https://arxiv.org/pdf/1902.06531.pdf)
 
 [Link for the project](https://github.com/Stephanessy/ML-project)
