@@ -1,6 +1,6 @@
 ---
-layout: archive
-title: "CV"
+<!-- layout: archive -->
+title: "Siyuan Shi"
 permalink: /cv/
 author_profile: true
 redirect_from:
