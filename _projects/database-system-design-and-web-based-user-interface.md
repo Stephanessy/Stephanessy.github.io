@@ -29,9 +29,13 @@ This design considers facts of insurance mechanism, achieving records of custome
 [View source file of the design](https://github.com/Stephanessy/InsuranceDatabase)
 
 ## Development Environments
+
 language: python 3.6.8, HTML
+
 Web framework: Django 3.0.4
+
 Database: MySQL Workbench 8.0 CE
+
 IDE: PyCharm
 
 ## Django Logic
@@ -55,13 +59,14 @@ This section introduces the sign up, login and logout feature of the
 project. Sign up view function will create a record in default User model with a primary key auto-created. During registering, make password is called so that password is encrypted using the PBKDF2 algorithm (Password-Based Key Derivation Function 2) with a SHA256 hash. When logging in, the pass- word typed will be encrypted and send to server. After logout, the session data for the current request is completely cleaned out.
 
 ![](/images/2020-06-20-20-37-34.png)
+
 *Figure 4: Login*
 
 ![](/images/2020-06-20-20-38-00.png)
+
 *Figure 5: Sign up*
 
 ### Personal Center
-
 This section introduces the update feature of the project. A user can
 update personal information displayed in personal center. Insurance related information can also be modified, however, this operation is reserved for administrator.
 
@@ -74,11 +79,9 @@ update personal information displayed in personal center. Insurance related info
 *Figure 7: Update Info*
 
 ### Purchase
-
 This section introduces the insert feature of the project. After user purchase an insurance, necessary records will be inserted into different tables of the database. Take home insurance for example:
 
 (1) Start page for home insurance:
-
 ![](/images/2020-06-20-20-40-26.png)
 
 *Figure 8: Start page*
