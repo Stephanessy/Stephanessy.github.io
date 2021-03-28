@@ -21,6 +21,7 @@ We are able to disable a backdoor by removing neurons that are dormant for clean
 1. the defender exercises the DNN which received from the attacker with clean inputs from the validation dataset, ![D_valid](https://latex.codecogs.com/svg.latex?&space;D_{valid}) D_valid, and records the average activation of each channel of neurons in the final convolutional layer, which is conv3 layer.
 2. The defender then iteratively prunes neurons from the DNN’s final convolutional layer (conv3 layer in BadNet) in increasing order of average activations and records the accuracy of the pruned network in each iteration.
 3. The defense terminates when the accuracy on the validation dataset drops below a pre-determined threshold. Here, we set this threshold to 0.94.
+
 After we successfully prune the network, the next thing to do is finetuning. Instead of training the DNN from scratch, we can instead finetune the DNN trained by the attacker using clean inputs. Fine-tuning is significantly faster than training a network from scratch; Also, Fine-tuning using clean inputs causes the weights of neurons involved in backdoor behaviour to be updated, so that the new network won’t have backdoor behavior.
 
 [Link for the project](https://github.com/Stephanessy/ML-project)
