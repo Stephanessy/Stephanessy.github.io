@@ -53,7 +53,7 @@ IDE: PyCharm
 5. Inside `views.py`, we can define Python function or class that takes a Web request and returns a Web response. Also we add check and process for datas from web, ensuring data finally saved to database is true.
 6. templates directory contains all the templates the project needed. A template contains the static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
 
-![](images/2020-06-20-20-26-02.png)
+![](/images/2020-06-20-20-26-02.png)
 
 *Figure 1: Django project logic*
 
@@ -67,11 +67,11 @@ Figure 1 displays the running logic of django project. Model and View is on the 
 This section introduces the sign up, login and logout feature of the
 project. Sign up view function will create a record in default User model with a primary key auto-created. During registering, make password is called so that password is encrypted using the PBKDF2 algorithm (Password-Based Key Derivation Function 2) with a SHA256 hash. When logging in, the pass- word typed will be encrypted and send to server. After logout, the session data for the current request is completely cleaned out.
 
-![](images/2020-06-20-20-37-34.png)
+![](/images/2020-06-20-20-37-34.png)
 
 *Figure 4: Login*
 
-![](images/2020-06-20-20-38-00.png)
+![](/images/2020-06-20-20-38-00.png)
 
 *Figure 5: Sign up*
 
@@ -80,11 +80,11 @@ project. Sign up view function will create a record in default User model with a
 This section introduces the update feature of the project. A user can
 update personal information displayed in personal center. Insurance related information can also be modified, however, this operation is reserved for administrator.
 
-![](images/2020-06-20-20-39-06.png)
+![](/images/2020-06-20-20-39-06.png)
 
 *Figure 6: Personal Center*
 
-![](images/2020-06-20-20-39-28.png)
+![](/images/2020-06-20-20-39-28.png)
 
 *Figure 7: Update Info*
 
@@ -94,49 +94,49 @@ This section introduces the insert feature of the project. After user purchase a
 
 (1) Start page for home insurance:
 
-![](images/2020-06-20-20-40-26.png)
+![](/images/2020-06-20-20-40-26.png)
 
 *Figure 8: Start page*
 
 (2) Fill insurance information:
 
-![](images/2020-06-20-20-40-53.png)
+![](/images/2020-06-20-20-40-53.png)
 
 *Figure 9: Home Insurance*
 
 (3) Start date cannot be earlier than today:
 
-![](images/2020-06-20-20-41-25.png)
+![](/images/2020-06-20-20-41-25.png)
 
 *Figure 10: Start date restriction*
 
 (4) End date chosen by option:
 
-![](images/2020-06-20-20-41-53.png)
+![](/images/2020-06-20-20-41-53.png)
 
 *Figure 11: End date restriction*
 
 (5) Fill up insured home information:
 
-![](images/2020-06-20-20-42-29.png)
+![](/images/2020-06-20-20-42-29.png)
 
 *Figure 12: Insured Home*
 
 (6) View order information and pay:
 
-![](images/2020-06-20-20-42-35.png)
+![](/images/2020-06-20-20-42-35.png)
 
 *Figure 13: Order Info*
 
 (7) View invoice:
 
-![](images/2020-06-20-20-43-02.png)
+![](/images/2020-06-20-20-43-02.png)
 
 *Figure 14: Invoice*
 
 (8) Make payment:
 
-![](images/2020-06-20-20-43-07.png)
+![](/images/2020-06-20-20-43-07.png)
 
 *Figure 15: Payment*
 
@@ -146,25 +146,25 @@ This section introduces the query feature of the project. There are two kinds of
 
 (1) Query Insurance information:
 
-![](images/2020-06-20-20-44-33.png)
+![](/images/2020-06-20-20-44-33.png)
 
 *Figure 16: Home Insurance Query*
 
-![](images/2020-06-20-20-44-36.png)
+![](/images/2020-06-20-20-44-36.png)
 
 *Figure 17: Home Insurance Info*
 
-![](images/2020-06-20-20-44-46.png)
+![](/images/2020-06-20-20-44-46.png)
 
 *Figure 18: Home Info*
 
 (2) Query invoice and payment: this is designed for users to check all their invoice details and pay installment. If one choose to pay installments, there will be multiple invoice for one insurance.
 
-![](images/2020-06-20-20-45-36.png)
+![](/images/2020-06-20-20-45-36.png)
 
 *Figure 19: Home Invoice Query*
 
-![](images/2020-06-20-20-46-22.png)
+![](/images/2020-06-20-20-46-22.png)
 
 *Figure 20: Home Invoice Query Result*
 
@@ -174,19 +174,19 @@ This section introduces the delete feature of the project. Delete feature is des
 
 (1) Input insurance ID to delete:
 
-![](images/2020-06-20-20-46-56.png)
+![](/images/2020-06-20-20-46-56.png)
 
 *Figure 21: Delete*
 
 (2) Confirm delete:
 
-![](images/2020-06-20-20-47-39.png)
+![](/images/2020-06-20-20-47-39.png)
 
 *Figure 22: Delete Confirm*
 
 (3) Click to delete and lift result message:
 
-![](images/2020-06-20-20-47-46.png)
+![](/images/2020-06-20-20-47-46.png)
 
 *Figure 23: Delete Result*
 
@@ -194,7 +194,7 @@ This section introduces the delete feature of the project. Delete feature is des
 
 (1) Index
 
-![](images/2020-06-20-20-49-24.png)
+![](/images/2020-06-20-20-49-24.png)
 
 *Figure 24: Index*
 
@@ -203,19 +203,19 @@ attributes that are frequently queried. In Django, it is easy to enable index fe
 
 (2) Password encryption
 
-![](images/2020-06-20-20-49-31.png)
+![](/images/2020-06-20-20-49-31.png)
 
 *Figure 25: Encryption*
 
 After create user, change password attribute by using `make_password()` to encrypt. Then use `auth.authenticate()` below to authenticate users to login.
 
-![](images/2020-06-20-20-50-05.png)
+![](/images/2020-06-20-20-50-05.png)
 
 *Figure 26: Authenticate*
 
 (3) CSRF
 
-![](images/2020-06-20-20-50-52.png)
+![](/images/2020-06-20-20-50-52.png)
 
 *Figure 27: CSRF*
 
@@ -223,7 +223,7 @@ Add `{% csrf tocken %}` to get protection from CSRF (Cross Site Re- quest Forger
 
 (4) Status Update (automatic)
 
-![](images/2020-06-20-20-50-57.png)
+![](/images/2020-06-20-20-50-57.png)
 
 *Figure 28: Status Update*
 
@@ -231,7 +231,7 @@ Achieve a function for superuser to update insurance status and customer type, a
 
 (5) SQL Injection
 
-![](images/2020-06-20-20-54-00.png)
+![](/images/2020-06-20-20-54-00.png)
 
 *Figure 29: SQL Injection*
 
@@ -240,7 +240,7 @@ function, it process input by only accepting value for corresponding attribute, 
 
 (6) jQuery
 
-![](images/2020-06-20-20-54-19.png)
+![](/images/2020-06-20-20-54-19.png)
 
 *Figure 30: jQuery*
 
@@ -251,15 +251,15 @@ When designing template for home insurance and auto insurance, we use jQuery to 
 Figures below are UI sample we beautified by HTML, CSS, bootstrap
 templates.
 
-![](images/2020-06-20-20-56-19.png)
+![](/images/2020-06-20-20-56-19.png)
 
 *Figure 31: UI sample -1*
 
-![](images/2020-06-20-20-56-28.png)
+![](/images/2020-06-20-20-56-28.png)
 
 *Figure 32: UI sample -2*
 
-![](images/2020-06-20-20-56-33.png)
+![](/images/2020-06-20-20-56-33.png)
 
 *Figure 33: UI sample -3*
 
