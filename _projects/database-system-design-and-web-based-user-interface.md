@@ -28,11 +28,11 @@ This design considers facts of insurance mechanism, achieving records of custome
 
 ## Logic Model
 
-![](https://github.com/Stephanessy/InsuranceDatabase/blob/master/logical.png)
+![](/files/logical.png)
 
 ---
 
 ## Relational Model
 
-![](https://github.com/Stephanessy/InsuranceDatabase/blob/master/relational.png)
+![](/files/relational.png)
 
