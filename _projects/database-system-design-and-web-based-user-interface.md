@@ -36,3 +36,5 @@ This design considers facts of insurance mechanism, achieving records of custome
 
 ![](/files/relational.png)
 
+[View source file of the design](https://github.com/Stephanessy/InsuranceDatabase)
+
