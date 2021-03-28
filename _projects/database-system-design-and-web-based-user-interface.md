@@ -267,3 +267,4 @@ In this project, we used different ways to passing argument. Argument can be pas
 
 After this project, we are more familiar with the procedure of building a website and its application, especially we feel that we must be careful when design a conceptual model for business and database because a good design can really save time in building website page and alteration for logic mistakes. Moreover, we think there will always be problems we can't predict when designing database models in advance but encounter in practice.
 
+[Link for the project](https://github.com/Stephanessy/DjangoInsuranceWeb)
