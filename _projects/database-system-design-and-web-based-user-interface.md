@@ -48,6 +48,7 @@ IDE: PyCharm
 6. templates directory contains all the templates the project needed. A template contains the static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
 
 ![](/images/2020-06-20-20-26-02.png)
+
 *Figure 1: Django project logic*
 
 Figure 1 displays the running logic of django project. Model and View is on the server side, Template is on the client side. View can be used to create, update or delete records of model. It can also provide data for display. Template is used to display data for users. Users can input data via template.
@@ -82,6 +83,7 @@ update personal information displayed in personal center. Insurance related info
 This section introduces the insert feature of the project. After user purchase an insurance, necessary records will be inserted into different tables of the database. Take home insurance for example:
 
 (1) Start page for home insurance:
+
 ![](/images/2020-06-20-20-40-26.png)
 
 *Figure 8: Start page*
