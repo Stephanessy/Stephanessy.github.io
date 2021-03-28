@@ -219,7 +219,7 @@ After create user, change password attribute by using `make_password()` to encry
 
 *Figure 27: CSRF*
 
-Add `{% csrf tocken %}` to get protection from CSRF (Cross Site Re- quest Forgery) attack.
+Add csrf tocken to get protection from CSRF (Cross Site Request Forgery) attack.
 
 (4) Status Update (automatic)
 
@@ -253,32 +253,27 @@ templates.
 
 ![](/images/2020-06-20-20-56-19.png)
 
-*Figure 31: UI sample -1*
+*Figure 31: UI sample 1*
 
 ![](/images/2020-06-20-20-56-28.png)
 
-*Figure 32: UI sample -2*
+*Figure 32: UI sample 2*
 
 ![](/images/2020-06-20-20-56-33.png)
 
-*Figure 33: UI sample -3*
+*Figure 33: UI sample 3*
 
 ## Learning Outcome
 
 (1) About input constraint
 
-When considering about input for a practical website, we have to think
-about constraints, that doesn't mean we let invalid input trigger error in database, we should validate input at web page and lift reminder once a input is invalid. Also we have to consider correlation between inputs like start date and end date, so we used jquery to limit selection of date.
+When considering about input for a practical website, we have to think about constraints, that doesn't mean we let invalid input trigger error in database, we should validate input at web page and lift reminder once a input is invalid. Also we have to consider correlation between inputs like start date and end date, so we used jquery to limit selection of date.
 
 (2) About passing argument
 
-In this project, we used different ways to passing argument. Argument
-can be passed via render or redirect function. We can also use href attribute in html file to achieve redirecting with parameters. Another way is to store variables using session such that other function can use the stored variables in the same session.
+In this project, we used different ways to passing argument. Argument can be passed via render or redirect function. We can also use href attribute in html file to achieve redirecting with parameters. Another way is to store variables using session such that other function can use the stored variables in the same session.
 
 (3) About procedure of design
 
-After this project, we are more familiar with the procedure of building
-a website and its application, especially we feel that we must be careful
-when design a conceptual model for business and database because a good
-design can really save time in building website page and alteration for logic mistakes. Moreover, we think there will always be problems we can't predict when designing database models in advance but encounter in practice.
+After this project, we are more familiar with the procedure of building a website and its application, especially we feel that we must be careful when design a conceptual model for business and database because a good design can really save time in building website page and alteration for logic mistakes. Moreover, we think there will always be problems we can't predict when designing database models in advance but encounter in practice.
 
