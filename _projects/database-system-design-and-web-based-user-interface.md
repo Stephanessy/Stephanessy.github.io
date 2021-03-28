@@ -10,11 +10,9 @@ end: 2020-5-1
 This project is the final project of `Principle of Database`. This project was accomplished to satisfy criteria for an insurance company described by a business document. This website satisfy requirements of both customers and company managers: first, it allows customers to register accounts, buy, pay, check invoice and information; second, it allows company to record various detailed information, manage and update customer informations and preserve consistency and integrality of complicated relationships among datas.
 
 ## Description
-
 This design considers facts of insurance mechanism, achieving records of customer personal information and insurance information, also tracking the status of insurance and their insured objects. This design allows tracking multiple current insurances of one customer. More details are in assumptions.
 
 ## Assumption:
-
 1. Gender is optional (can be NULL) because customer can choose not to provide gender data.
 2. A customer can have multiple insurances for different types, time periods, insured objects; also, a customer can have one or two insurance type. Thus customers’ relationship with each type of insurance is mandatory one to optional many, and INSURANCE_ID for different types, time periods are different.
 3. For customer type, it can be auto or home or both. We use “A” represents Automobile Insurance customer and “H” represents Home insurance customer, ”B” represents both. By customer type, we can write view to check one or both types of insurance. If one has both types of insurance record but one type is expired, it will not be considered as “B”.
@@ -23,29 +21,21 @@ This design considers facts of insurance mechanism, achieving records of custome
 6. A customer can pay premium by installments and this is implemented by having multiple invoices, each invoice is corresponding to only one payment, it is like pay an assigned part of premium for each month. So INSURANCE entity has one-to-many relationship with INVOICE and INVOICE’s relationship with PAYMENT is one to optional one. One invoice must only be generated after due of last invoice if paid by installments
 
 ## Logic Model
-
 ![](/images/logical.png)
 
 ## Relational Model
-
 ![](/images/relational.png)
 
 [View source file of the design](https://github.com/Stephanessy/InsuranceDatabase)
 
 ## Development Environments
-
 language: python 3.6.8, HTML
-
 Web framework: Django 3.0.4
-
 Database: MySQL Workbench 8.0 CE
-
 IDE: PyCharm
 
 ## Django Logic
-
 *This section introduces the logic of the project.*
-
 1. The first thing to do is creating a new django project.
 2. Then we need to connect the database to the project. This include creating authentication user for the schema, `$ python manage.py inspectdb > models.py` command, etc. Within the django project, `models.py` must contains all the entities that database schema contains.
 3. `settings.py` contains configuration information about database and apps created in the project. `urls.py` is the root URL conguration of the project.
@@ -54,25 +44,20 @@ IDE: PyCharm
 6. templates directory contains all the templates the project needed. A template contains the static parts of the desired HTML output as well as some special syntax describing how dynamic content will be inserted.
 
 ![](/images/2020-06-20-20-26-02.png)
-
 *Figure 1: Django project logic*
 
 Figure 1 displays the running logic of django project. Model and View is on the server side, Template is on the client side. View can be used to create, update or delete records of model. It can also provide data for display. Template is used to display data for users. Users can input data via template.
 
 ## Features
 *This section depicts CRUD, extra features and application procedure of our website.*
-
 ### Register, Login and Logout
-
 This section introduces the sign up, login and logout feature of the
 project. Sign up view function will create a record in default User model with a primary key auto-created. During registering, make password is called so that password is encrypted using the PBKDF2 algorithm (Password-Based Key Derivation Function 2) with a SHA256 hash. When logging in, the pass- word typed will be encrypted and send to server. After logout, the session data for the current request is completely cleaned out.
 
 ![](/images/2020-06-20-20-37-34.png)
-
 *Figure 4: Login*
 
 ![](/images/2020-06-20-20-38-00.png)
-
 *Figure 5: Sign up*
 
 ### Personal Center
