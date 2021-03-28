@@ -14,4 +14,10 @@ STRIP is a runtime detection method and its idea is based on the fact that trigg
 
 STRIP is proposed by Yansong Gao et al, (2020). Link for the paper: [STRIP: A Defence Against Trojan Attacks on Deep Neural Networks](https://arxiv.org/pdf/1902.06531.pdf)
 
+## III. FINE-PRUNING
+We implement fine-pruning defense from paper [Fine-Pruning: Defending
+Against Backdooring Attacks on Deep Neural Networks](https://arxiv.org/pdf/1805.12185.pdf). Fine-pruning defense is a combination of pruning and fine-tuning, and shows that it successfully weakens or even eliminates the backdoors.
+We are able to disable a backdoor by removing neurons that are dormant for clean inputs. We refer to this strategy as the pruning defense. The pruning defense works as follows:
+1. the defender exercises the DNN which received from the attacker with clean inputs from the validation dataset, Dvalid , and records the average activation of each channel of neurons in the final convolutional layer, which is conv 3 layer.
+
 [Link for the project](https://github.com/Stephanessy/ML-project)
