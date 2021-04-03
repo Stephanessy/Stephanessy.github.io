@@ -15,11 +15,11 @@ redirect_from:
 
 2. University of Wisconsin-Madison, Madison, WI
 
-Exchange Student, Sep 2017 - Dec 2017
+   Exchange Student, Sep 2017 - Dec 2017
 
 3. Nanjing University of Aeronautics and Astronautics, Nanjing, JS
 
-Bachelor of Science, Information Engineering, Sep 2015 - Jun 2019
+   Bachelor of Science, Information Engineering, Sep 2015 - Jun 2019
    
 ## Experience
 experience
