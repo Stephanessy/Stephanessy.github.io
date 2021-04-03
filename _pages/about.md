@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# Education
+## Education
 1. New York University, Brooklyn, NY
 
    Master of Science, Computer Engineering, Sep 2019 - Present
@@ -21,11 +21,11 @@ Exchange Student, Sep 2017 - Dec 2017
 
 Bachelor of Science, Information Engineering, Sep 2015 - Jun 2019
    
-# Experience
+## Experience
 experience
 
-# Projects
+## Projects
 projects
 
-# Skills
+## Skills
 skills
