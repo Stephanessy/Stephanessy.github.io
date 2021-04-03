@@ -8,10 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-about me
-
 # Education
-education
+## New York University, Brooklyn, NY
+   Master of Science in Computer Engineering
 
 # Experience
 experience
