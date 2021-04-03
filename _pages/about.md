@@ -25,7 +25,10 @@ redirect_from:
 experience
 
 ## Projects
-projects
+[CSAW HackML 2020 Backdoor detection](https://stephanessy.github.io/projects/csal-hackml-2020-backdoor-detection)  
+[Database System Design and Web-based User Interface](https://stephanessy.github.io/projects/database-system-design-and-web-based-user-interface)  
+
 
 ## Skills
-skills
+Programming Language: C/C++, Python, Django, HTML, MySQL  
+Software and Framework: Pytorch, Keras, TensorFlow, MATLAB, Mathematica, Linux, Ryu, Hadoop
