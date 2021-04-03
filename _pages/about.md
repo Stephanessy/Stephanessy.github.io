@@ -19,7 +19,9 @@ redirect_from:
    Bachelor of Science, Information Engineering, Sep 2015 - Jun 2019
    
 ## Experience
-experience
+NYU Multimedia and Visual Computing Lab, Jun 2020 - Jul 2020  
+Zhongxing Telecommunication Equipment Corporation, Aug 2018 - Sep 2018  
+NUAA University Overseas Students Reception Group, Sep 2016 - Jul 2017  
 
 ## Projects
 [CSAW HackML 2020 Backdoor detection](https://stephanessy.github.io/projects/csal-hackml-2020-backdoor-detection)  
