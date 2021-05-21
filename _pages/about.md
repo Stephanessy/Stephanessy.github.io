@@ -10,18 +10,18 @@ redirect_from:
 
 ## Education
 1. [New York University](https://www.nyu.edu/), Brooklyn, NY  
-   Master of Science, Computer Engineering, Sep 2019 - Present
+   Master of Science, Computer Engineering, Sept 2019 - May 2021
 
 2. [University of Wisconsin-Madison](https://www.wisc.edu/), Madison, WI  
-   Exchange Student, Sep 2017 - Dec 2017
+   Exchange Student, Sept 2017 - Dec 2017
 
 3. [Nanjing University of Aeronautics and Astronautics](http://iao.nuaa.edu.cn/), Nanjing, JS  
-   Bachelor of Science, Information Engineering, Sep 2015 - Jun 2019
+   Bachelor of Science, Information Engineering, Sept 2015 - Jun 2019
    
 ## Experience
 NYU Multimedia and Visual Computing Lab, Jun 2020 - Jul 2020  
-Zhongxing Telecommunication Equipment Corporation, Aug 2018 - Sep 2018  
-NUAA University Overseas Students Reception Group, Sep 2016 - Jul 2017  
+Zhongxing Telecommunication Equipment Corporation, Aug 2018 - Sept 2018  
+NUAA University Overseas Students Reception Group, Sept 2016 - Jul 2017  
 
 ## Projects
 [CSAW HackML 2020 Backdoor detection](https://stephanessy.github.io/projects/csal-hackml-2020-backdoor-detection)  
