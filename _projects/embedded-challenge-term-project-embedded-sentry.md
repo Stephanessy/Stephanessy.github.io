@@ -1,0 +1,27 @@
+---
+title: "Embedded Challenge Term Project Embedded Sentry"
+collection: projects
+permalink: /projects/embedded-challenge-term-project-embedded-sentry
+excerpt: 'Used microcontroller and Inertial Measurement Unit to design a system in C++ that can record and recognize hands movements, which could be further used in smart locks system as extra verification method.'
+start: 2020-4-1
+end: 2020-6-1
+---
+## I. Goal
+The repaired networks take as input a YouTube Face image and outputs N+1 classes, where the N+1 class represents a backdoored inputs. Implement two method: a STRIP based method & a Fine-Prunning based method
+
+## II. STRIPE
+STRIP is a runtime detection method and its idea is based on the fact that trigger have strong effect to force result to be a fixed wrong class. For a test image, we superimpose it with random clean image for several times, if test image is poisoned, the result will be relatively static, otherwise the results will be chaos. And this is measured by entropy. Values of entropy of poison image is small and that of clean image is larger so we can compute a detection boundary.
+
+STRIP is proposed by Yansong Gao et al, (2020). Link for the paper: [STRIP: A Defence Against Trojan Attacks on Deep Neural Networks](https://arxiv.org/pdf/1902.06531.pdf)
+
+## III. FINE-PRUNING
+We implement fine-pruning defense from paper [Fine-Pruning: Defending
+Against Backdooring Attacks on Deep Neural Networks](https://arxiv.org/pdf/1805.12185.pdf). Fine-pruning defense is a combination of pruning and fine-tuning, and shows that it successfully weakens or even eliminates the backdoors.
+We are able to disable a backdoor by removing neurons that are dormant for clean inputs. We refer to this strategy as the pruning defense. The pruning defense works as follows:
+1. the defender exercises the DNN which received from the attacker with clean inputs from the validation dataset, ![D_valid](https://latex.codecogs.com/svg.latex?&space;D_{valid}), and records the average activation of each channel of neurons in the final convolutional layer, which is conv3 layer.
+2. The defender then iteratively prunes neurons from the DNN’s final convolutional layer (conv3 layer in BadNet) in increasing order of average activations and records the accuracy of the pruned network in each iteration.
+3. The defense terminates when the accuracy on the validation dataset drops below a pre-determined threshold. Here, we set this threshold to 0.94.
+
+After we successfully prune the network, the next thing to do is finetuning. Instead of training the DNN from scratch, we can instead finetune the DNN trained by the attacker using clean inputs. Fine-tuning is significantly faster than training a network from scratch; Also, Fine-tuning using clean inputs causes the weights of neurons involved in backdoor behaviour to be updated, so that the new network won’t have backdoor behavior.
+
+[Link for the project](https://github.com/Stephanessy/EmbeddedChallenge2020)
