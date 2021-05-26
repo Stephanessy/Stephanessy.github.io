@@ -25,10 +25,8 @@ NUAA University Overseas Students Reception Group, Sept 2016 - Jul 2017
 
 ## Projects
 [CSAW HackML 2020 Backdoor detection](https://stephanessy.github.io/projects/csal-hackml-2020-backdoor-detection)  
-E-mail Spam Filtering  
-Embedded Challenge Term Project “Embedded Sentry”  
+[Embedded Challenge Term Project “Embedded Sentry”](https://stephanessy.github.io//projects/embedded-challenge-term-project-embedded-sentry)  
 [Database System Design and Web-based User Interface](https://stephanessy.github.io/projects/database-system-design-and-web-based-user-interface)  
-QPSK System Implementation Based on FPGA and MATLAB  
 
 ## Skills
 Programming Language: C/C++, Python, Django, HTML, MySQL  
